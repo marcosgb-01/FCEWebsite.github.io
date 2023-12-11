@@ -503,8 +503,6 @@ p {
 .button {
   font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
-  height: 4rem;
-  line-height: 4rem;
   padding: 10px;
   border: 0;
   border-radius: 3rem;
