@@ -29,7 +29,7 @@ The actual developement of the source code of the website took place in the loca
 This website contains 7 webpages:
 
 #### Home (index.html)
-Contains basic infromation and links to all the other web pages.
+Contains basic information and links to all the other web pages.
 
 #### About me (about.html)
 
@@ -56,7 +56,7 @@ Contains links to other partners' websites
 #### Degree (degree.html)
 Contains information about the Business Analytics + Computer Engineering degree. Includes
 
-- A description of all the subjects in year 2023/2024 grouped by course (1º-5º) including the teaching quarter thay correspond to and their ECTS worth
+- A description of all the subjects in year 2023/2024 grouped by course (1º-5º) including the teaching quarter they correspond to and their ECTS worth
 - A downloadable Academic program pdf
 - A link to fundamental.html
 
@@ -101,18 +101,18 @@ The website is organized in the following structure from the root (FCEWebsite.gi
 - - - /docs/public/topic.html
 - - docs/index.html
 
-Downloadable files (Academic program.pdf, Curriculum.vitae.pdf, IoT.pptx and Teching guide.pdf are all inside the /dcos directory).
+Downloadable files (Academic program.pdf, Curriculum.vitae.pdf, IoT.pptx and Teaching guide.pdf are all inside the /docs directory).
 
 #### CSS style
-Every html document (webpage) uses the same CSS file (main.css), which is referenced externally in every webpage.
+Every html document (web page) uses the same CSS file (main.css), which is referenced externally in every web page.
 
 #### References
-Images, links, files or the main.css file are referenced in html documents using relative paths, which is a more common and comformtable way of referencing other files working from the current directory.
+Images, links, files or the main.css file are referenced in html documents using relative paths, which is a more common and comfortable way of referencing other files working from the current directory.
 
 #### Imports
 The following external imports were made to enhance the project:
 
-- Booutstrap's CSS and JS carrousel (in topic.html)
+- Bootstrap's CSS and JS carousel (in topic.html)
 - Google's Montserrat font family (in every document)
 
 ---
