@@ -5,6 +5,7 @@
 ## Project Title
 My first website (Practical work II (FCE))
 
+---
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Description of the Work](#description-of-the-work)
@@ -12,11 +13,13 @@ My first website (Practical work II (FCE))
 4. [Conclusions](#conclusions)
 5. [Additional Sections (if any)](#additional-sections)
 
+---
 ## Introduction
 This project consists on creating a website using HTML (HyperText Markup Language) and CSS (Cascaded Style Sheets) combining their characteristics and using certain layout and style techniques to create the best website possible.
 
 The aim of this project is to gain knowledge about the programming languages used to make the front-end of most web pages and to understand how most of the characteristics of web pages are displayed by web browsers and expressed in these languages.
 
+---
 ## Description of the Work
 The website was created through the use of HTML and CSS in Visual Studio Code (Msft) and a distributed source code repository using GitHub.
 
@@ -112,6 +115,7 @@ The following external imports were made to enhance the project:
 - Booutstrap's CSS and JS carrousel (in topic.html)
 - Google's Montserrat font family (in every document)
 
+---
 ## Problems Faced
 Bellow you will find a discussion of the challenges and problems which were encountered during the development process and how the were managed/solved.
 
