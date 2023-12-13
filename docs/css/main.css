@@ -242,6 +242,7 @@ h6 {
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
       width:auto;
       height:400px;
+      margin-top:15px;
       margin-bottom: 15px;
       background-color: rgba(49, 49, 49, 0.048);
       backdrop-filter: blur(10px);
