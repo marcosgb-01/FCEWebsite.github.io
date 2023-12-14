@@ -117,21 +117,21 @@ The following external imports were made to enhance the project:
 
 ---
 ## Problems Faced
-Bellow you will find a discussion of the challenges and problems which were encountered during the development process and how the were managed/solved.
+Below you will find a discussion of the challenges and problems encountered during the development process and how they were managed or solved.
 
 ### Issue 1: Relative path changes
-During the developement of the website and after the upload of the projecto to the repository there were some major issues regarding paths ansd references (including name reference problems (capital letter incompatibilities) and relative path problems when a file was changed from one directory to another). These issued, however, were easy to get used to and after some time they almost disappeared.
+During the development of the website, and after uploading the project to the repository, there were significant issues regarding paths and references. This included name reference problems (such as capital letter incompatibilities) and relative path issues when a file was moved from one directory to another. However, these issues were eventually easy to adapt to, and they almost disappeared over time.
 
 ### Issue 2: Name references incompatiblw on github upload
-When uploading to github, all of the links stopped working due to capital letter incompatibilities. Including Index.html (which had to be changed to index.html for the browser to interpret ir as the index page). All of the names had to be changed along with the references, which took some time but after it the issue was completely gone.
+Upon uploading to GitHub, all of the links stopped working due to capital letter incompatibilities. For instance, 'Index.html' had to be changed to 'index.html' for the browser to recognize it as the index page. All names and references required updating, which was time-consuming, but this resolved the issue completely.
 
 ### Issue 3: Columns
-There were several issues regarding aligning obects horizontally, including them going off-screen- some columns being inexplicably bigger than others, divs taking too much space. Many different layout composition models were tried and after some time, the flexbox method turned out to be the most suitable one, as it is direction-agnostic and dynamic accross different screen sizes.
+Several issues arose regarding the horizontal alignment of objects, including some going off-screen, columns being inexplicably larger than others, and divs occupying too much space. Various layout composition models were tested, and ultimately, the flexbox method proved to be the most suitable. It is direction-agnostic and adapts dynamically across different screen sizes.
 
 ### Issue 4: Hover layout distorsion
-When implementing hover animations through hover events and transitions in CSS, hovered items would become bigger and distort the arrangement of other elements of the pages. This is the issue that took the most time resolving, as the aim was a balance of the slightest distorsion possible but still wanting the webpage to feel lively and interactive.
+Implementing hover animations with hover events and transitions in CSS caused hovered items to enlarge and distort the arrangement of other page elements. This was the most time-consuming issue to resolve. The goal was to minimize distortion while maintaining a lively and interactive webpage feel.
 
-The solution turned out to be compensating the increase in the object size (font and border increase) wirh padding/mergin decreases. However, the transition still made other items displace because, while the border  width change was 1px (1px-2px), the padding diference was 10px (20px-10px) so, even though that when the transition ended objects were arragned the same than when it started, during the transition there was a slight displacement due to frame differences (because, while padding can transition more softly due to ir having more steps in the transitions, border width could only transition 1 time (from 1px- to 2px)). However, the movement was so slight that the advantages were far greater than the disadvantages and the feature was kept.
+The solution involved compensating for the increase in object size (font and border increase) with decreases in padding/margin. However, the transition still caused other items to shift slightly. This was because, while the border width change was minor (1px to 2px), the padding difference was larger (20px to 10px). So, during the transition, there was a slight displacement due to frame differences. The padding transitioned more smoothly because it had more steps, whereas the border width could only change once. Nonetheless, the movement was subtle, and the benefits outweighed the disadvantages, so the feature was retained.
 
 ## Conclusions
 > Summarize your learning outcomes from this project. Discuss what was successful and what could be improved.
