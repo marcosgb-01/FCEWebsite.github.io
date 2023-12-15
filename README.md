@@ -122,7 +122,7 @@ Below you will find a discussion of the challenges and problems encountered duri
 ### Issue 1: Relative path changes
 During the development of the website, and after uploading the project to the repository, there were significant issues regarding paths and references. This included name reference problems (such as capital letter incompatibilities) and relative path issues when a file was moved from one directory to another. However, these issues were eventually easy to adapt to, and they almost disappeared over time.
 
-### Issue 2: Name references incompatiblw on github upload
+### Issue 2: Name references incompatible on github upload
 Upon uploading to GitHub, all of the links stopped working due to capital letter incompatibilities. For instance, 'Index.html' had to be changed to 'index.html' for the browser to recognize it as the index page. All names and references required updating, which was time-consuming, but this resolved the issue completely.
 
 ### Issue 3: Columns
@@ -134,7 +134,9 @@ Implementing hover animations with hover events and transitions in CSS caused ho
 The solution involved compensating for the increase in object size (font and border increase) with decreases in padding/margin. However, the transition still caused other items to shift slightly. This was because, while the border width change was minor (1px to 2px), the padding difference was larger (20px to 10px). So, during the transition, there was a slight displacement due to frame differences. The padding transitioned more smoothly because it had more steps, whereas the border width could only change once. Nonetheless, the movement was subtle, and the benefits outweighed the disadvantages, so the feature was retained.
 
 ## Conclusions
-> Summarize your learning outcomes from this project. Discuss what was successful and what could be improved.
+Programming in HTML and CSS is a great challenge for first-course students who are new to programming or understanding of distributed source code repositories. 
+
+Personally I consider this project as a great opportunity to learn and understand how webpage/websites work and how source code files are tipically managed. I have enjoyed the development of this project greatly and am really satisfied with my ability to overome issues and with the results.
 
 ---
 **Note:** This document is part of the practical work II by Marcos García Balboa, developed for the Fundamentals of Computer Engineering course.
