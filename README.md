@@ -136,7 +136,7 @@ The solution involved compensating for the increase in object size (font and bor
 ## Conclusions
 Programming in HTML and CSS is a great challenge for first-course students who are new to programming or understanding of distributed source code repositories. 
 
-Personally I consider this project as a great opportunity to learn and understand how webpage/websites work and how source code files are tipically managed. I have enjoyed the development of this project greatly and am really satisfied with my ability to overome issues and with the results.
+Personally I consider this project as a great opportunity to learn and understand how webp ages/websites work and how source code files are tipically managed. I have enjoyed the development of this project greatly and am really satisfied with my ability to overome issues and with the final results.
 
 ---
 **Note:** This document is part of the practical work II by Marcos García Balboa, developed for the Fundamentals of Computer Engineering course.
